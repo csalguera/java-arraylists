@@ -28,3 +28,24 @@ class Shopping {
 
 We’ve tried to add a new item to the end of each. Run the code — does it work?
 
+## Creating ArrayLists
+
+```
+// import the ArrayList package here:
+
+
+class ToDos {
+  
+  public static void main(String[] args) {
+    
+    // Create toDoList below:
+    
+    
+  }
+  
+}
+```
+
+1. Import the `ArrayList` package from `java.util`.
+
+2. Create a new ArrayList that will contain String elements and call it toDoList.
