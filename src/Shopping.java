@@ -1,8 +1,3 @@
-## Java ArrayLists
-
-## Introduction
-
-```
 import java.util.Arrays;
 
 class Shopping {
@@ -19,12 +14,3 @@ class Shopping {
   }
   
 }
-```
-
-1. In `Shopping.java` we’ve defined two arrays:
-
-* `groceryItems`, a `String` array
-* `prices`, a `double` array
-
-We’ve tried to add a new item to the end of each. Run the code — does it work?
-
