@@ -48,4 +48,4 @@ class ToDos {
 
 1. Import the `ArrayList` package from `java.util`.
 
-2. Create a new ArrayList that will contain String elements and call it toDoList.
+2. Create a new `ArrayList` that will contain `String` elements and call it `toDoList`.
