@@ -103,5 +103,16 @@ public class App {
      * 
      * Otherwise if the index does not exist, an error will occur
      */
+
+    /*
+     * --------------
+     * ArrayList Size
+     * --------------
+     * 
+     * To view the amount of items/elements within an ArrayList, we use the size() method:
+     */
+
+    System.out.println(babyNames.size());
+    // Prints: 4
   }
 }
