@@ -1,3 +1,4 @@
+import java.util.Arrays;
 import java.util.ArrayList;
 
 public class App {
@@ -141,5 +142,27 @@ public class App {
     shoppingCart.add("Magnifying Glass");
     System.out.println(shoppingCart.get(0));
     // Prints: Trench Coat
+
+    /*
+     * ----------------
+     * Changing a Value
+     * ----------------
+     * 
+     * We can assign new values to arrays by using bracket notation:
+     */
+
+    ratings[0] = 3.14;
+    System.out.println(Arrays.toString(ratings));
+    // Prints:
+    // [3.14, 2.5, 1.7]
+
+    /*
+     * to accomplish the same reult in ArrayLists, we use the set() method instead:
+     */
+
+    shoppingCart.set(0, "Tweed Cape");
+    System.out.println(shoppingCart);
+    // Prints:
+    // [Tweed Cape, Tweed Houndstooth Hat, Magnifying Glass]
   }
 }
