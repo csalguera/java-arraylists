@@ -190,5 +190,28 @@ public class App {
     /*
      * If specifying the value instead of the index, only the first instance of the value will be removed
      */
+
+    /*
+     * -----------------------
+     * Getting an Item's Index
+     * -----------------------
+     * 
+     * We can find the index of an element within an ArrayList by using the indexOf() method:
+     */
+
+    ArrayList<String> detectives = new ArrayList<String>() {
+      {
+        add("Holmes");
+        add("Poirot");
+        add("Marple");
+        add("Spade");
+        add("Fletcher");
+        add("Conan");
+        add("Ramotswe");
+      }
+    };
+    // Note: To initialize an ArrayList with values, we can use the above syntax
+    System.out.println(detectives.indexOf("Fletcher"));
+    // Prints: 4
   }
 }
