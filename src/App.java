@@ -164,5 +164,31 @@ public class App {
     System.out.println(shoppingCart);
     // Prints:
     // [Tweed Cape, Tweed Houndstooth Hat, Magnifying Glass]
+
+    /*
+     * ----------------
+     * Removing an Item
+     * ----------------
+     * 
+     * ArrayLists, unlike Arrays, allow us to remove an element at a specified index by using the remove() method:
+     */
+
+    shoppingCart.remove(1);
+    System.out.println(shoppingCart);
+    // Prints:
+    // [Tweed Cape, Magnifying Glass]
+
+    /*
+     * Alternatively, we can remove an element by specifying the value instead:
+     */
+
+    shoppingCart.remove("Tweed Cape");
+    System.out.println(shoppingCart);
+    // Prints:
+    // [Magnifying Glass]
+
+    /*
+     * If specifying the value instead of the index, only the first instance of the value will be removed
+     */
   }
 }
