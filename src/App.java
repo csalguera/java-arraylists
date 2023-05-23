@@ -64,5 +64,44 @@ public class App {
 
     // Declaring and Initializing in single line:
     ArrayList<String> babyNames = new ArrayList<String>();
+
+    /*
+     * --------------
+     * Adding an Item
+     * --------------
+     * 
+     * ArrayList comes with an add() method which inserts an element into the structure
+     * 
+     * There are two ways we can use add()
+     * 
+     * If we want to add an element to the end of the ArrayList, we'll call add() using only one argument that represents the value we are inserting
+     */
+
+    babyNames.add("Joseph");
+    babyNames.add("Elizabeth");
+    System.out.println(babyNames);
+    // Prints:
+    // [Joseph, Elizabeth]
+
+    /*
+     * If we want to add an element at a specific index of our ArrayList, we'll need two arguments in our method call
+     *
+     * the first argument will define the index and the second argument defines the value:
+     */
+
+    babyNames.add(1, "Alexander");
+    System.out.println(babyNames);
+    // Prints:
+    // [Joseph, Alexander, Elizabeth]
+    babyNames.add(1, "Tristan");
+    System.out.println(babyNames);
+    // Prints:
+    // [Joseph, Tristan, Alexander, Elizabeth]
+
+    /*
+     * When providing an argument for the index, if an element exists on the index, it will be shifted to the right by 1
+     * 
+     * Otherwise if the index does not exist, an error will occur
+     */
   }
 }

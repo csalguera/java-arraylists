@@ -49,3 +49,36 @@ class ToDos {
 1. Import the `ArrayList` package from `java.util`.
 
 2. Create a new `ArrayList` that will contain `String` elements and call it `toDoList`.
+
+## Adding an Item
+
+```
+import java.util.ArrayList;
+
+class ToDos {
+    
+  public static void main(String[] args) {
+    
+    ArrayList<String> toDoList = new ArrayList<String>();
+    String toDo1 = "Water plants";
+    // Add more to-dos here:
+    
+    
+    // Add to-dos to toDoList
+    
+    
+    System.out.println(toDoList);
+      
+    
+  }
+  
+}
+```
+
+1. We’ve created an empty `ArrayList` called `toDoList`. Time to add some to-dos!
+
+Below where we’ve initialized `toDo1`, initialize two new String variables: `toDo2` and `toDo3`.
+
+Set their values to any tasks you like.
+
+2. Use `.add()` to add `toDo1`, `toDo2`, and `toDo3` to `toDoList`.
