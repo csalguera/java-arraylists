@@ -303,3 +303,70 @@ class ToDos {
     To help Dr. Watson figure this out, use `indexOf()` to determine where in the to-do list `"solve the case"` is.
 
     Print this information out. That’s the number of to-dos remaining before Sherlock reaches `"solve the case"`.
+
+## Review
+
+```
+import java.util.ArrayList;
+
+public class List {
+  public static void main(String[] args) {
+    // Create an ArrayList
+
+    // Add a new ArrayList Item using the add() method
+
+    // Access the size of the ArrayList using the size() method
+
+    // Find an item through its index using the get() method
+
+    // Change an item's value by using the set() method
+
+    // Remove an item through its value by using the remove() method
+
+    // Retrieve the index of an item through its value by using the indexOf() method
+    
+  }
+}
+```
+
+Above are some objectives to get repetitions of working with ArrayLists and ArrayList methods.
+
+To run your Java code cd into the `bin` directory
+
+```
+cd ./bin
+```
+
+and run the following command:
+
+```
+java List
+```
+
+Alternatively, you can run the code from your parent directory by running the following command:
+
+```
+java -cp bin List
+```
+
+The `-cp` flag specifies the classpath and tells the Java Virtual Machine (JVM) where to find the compiled class file.
+
+Note: It should not be necessary to compile your Java code. However, you can do so by cd'ing into your `src` directory
+
+```
+cd ./src
+```
+
+and running the following command:
+
+```
+javac -d ../bin List.java
+```
+
+The `-d` flag specifies the destination directory.
+
+An alternative approach would be to stay in the parent directory and run the following command:
+
+```
+javac -d bin src/List.java
+```

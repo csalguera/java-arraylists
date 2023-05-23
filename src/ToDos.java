@@ -21,7 +21,6 @@ class ToDos {
       
     // Change the value printed:
     System.out.println(toDosLeft);
-
   }
   
 }
